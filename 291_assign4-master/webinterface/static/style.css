@@ -1,0 +1,150 @@
+*
+{
+	margin: 0;
+	overflow: hidden;
+	
+}
+
+body {
+    opacity: 1;
+    transition: 1s opacity ease-in;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+#line1
+{
+	background-color: rgba(37, 38, 60, 0.8);
+	height:1px;
+	margin-top: 45%;
+	width:0px;
+	position:absolute;
+	transition: width 2s ease-in-out;
+	
+}
+
+.bullet
+{
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	background-color: rgba(24, 25, 45, 0.8);
+	float:left;
+}
+
+.bullet:hover 
+{
+	background-color: rgba(194, 39, 76, 0.8);
+}
+
+#line2
+{
+	background-color: rgba(37, 38, 60, 0.8);
+	height:1px;
+	margin-left: 45%;
+	width:1px;
+	position:absolute;
+	transition: height 2.5s ease-in-out;
+}
+
+body:hover #line1 
+{
+	width: 51%;
+}
+
+body:hover #line2
+{
+	height: 100%;
+}
+a
+{
+    color: black;
+    font-family: verdana;
+    text-decoration: none;
+    transition: color 1s;
+    text-transform: capitalize;
+    line-height: 25px;
+    font-size:14px;
+
+}
+
+a:hover
+{
+    color: rgba(194, 84, 27, 0.6);
+}
+
+a:visited
+{
+    color: black;
+}
+
+.back
+{
+	width: 100%;
+	height:720px;
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('11.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.appear
+{
+/*	float:left;
+*/	background-color: rgba(255, 255, 255, 0.8);
+	margin-top: 10%;
+	margin-left:14%;
+	height: 67%;
+	width:75%;
+	position:absolute;
+  }
+
+
+.fade-in {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  
+    animation:fadeIn ease-in-out 1;
+    -webkit-animation-fill-mode:forwards;   
+    animation-fill-mode:forwards;
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeIn {
+ from { opacity:0; } 
+ to { opacity:1; } }
+ 
+@-webkit-keyframes fadeIn { 
+	from { opacity:0; } 
+	to { opacity:1; } }
+
+.header1
+{
+	float:left;
+	color: white;
+	text-transform:lowercase;
+	height: 100%;
+	margin-left:51%;
+	width: 50%;
+	background-color: rgba(194, 84, 27, 0.7);
+	font-family: times;
+	padding: 100px 20px;
+	padding-top: 25%;
+	font-size: 55px;
+	line-height:55px;
+	position:absolute;
+}
+
+.option
+{
+    padding: 45px;
+    padding-top:100px;
+	cursor:pointer;
+	height: 500px;
+	position:absolute;
+	width:51%;
+	color: black;
+
+}
+

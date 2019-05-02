@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_2d039f61cc0949018e5d27b1ee3695cb {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_2d039f61cc0949018e5d27b1ee3695cb" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_2d039f61cc0949018e5d27b1ee3695cb = L.map(
+        'map_2d039f61cc0949018e5d27b1ee3695cb', {
+        center: [53.5444, -113.323],
+        zoom: 11,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_bf2b25ef8d41477ba80e2c5bd6a303bc = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_2d039f61cc0949018e5d27b1ee3695cb);
+    
+
+            var circle_99d033e9efae4c0db7d2234964a04426 = L.circle(
+                [53.50807597, -113.4161185],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 77.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2d039f61cc0949018e5d27b1ee3695cb);
+            
+    
+            var popup_e8314703f8364ba3bcd32bd40254a68c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5e0adb59cb7e4be2989dcf50b46d71ca = $(`<div id="html_5e0adb59cb7e4be2989dcf50b46d71ca" style="width: 100.0%; height: 100.0%;">WEIR INDUSTRIAL 70</div>`)[0];
+                popup_e8314703f8364ba3bcd32bd40254a68c.setContent(html_5e0adb59cb7e4be2989dcf50b46d71ca);
+            
+
+            circle_99d033e9efae4c0db7d2234964a04426.bindPopup(popup_e8314703f8364ba3bcd32bd40254a68c)
+            ;
+
+            
+        
+    
+
+            var circle_fe8249dcce9c4788b7a9b96800004368 = L.circle(
+                [53.47125013, -113.6717408],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 126.50000000000001,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2d039f61cc0949018e5d27b1ee3695cb);
+            
+    
+            var popup_9836a396427d43d5b0874fa7efc61815 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_547f58c4fa15422886e51e6c22105219 = $(`<div id="html_547f58c4fa15422886e51e6c22105219" style="width: 100.0%; height: 100.0%;">EDGEMONT 115</div>`)[0];
+                popup_9836a396427d43d5b0874fa7efc61815.setContent(html_547f58c4fa15422886e51e6c22105219);
+            
+
+            circle_fe8249dcce9c4788b7a9b96800004368.bindPopup(popup_9836a396427d43d5b0874fa7efc61815)
+            ;
+
+            
+        
+    
+
+            var circle_1221fc3190b9405ea63d7c8ce81eb076 = L.circle(
+                [53.56947823, -113.7006312],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 149.60000000000002,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2d039f61cc0949018e5d27b1ee3695cb);
+            
+    
+            var popup_c17e5cb53c8c4691b415e9c24012c909 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e4d51c044fbf48b1b433b4e50f88f456 = $(`<div id="html_e4d51c044fbf48b1b433b4e50f88f456" style="width: 100.0%; height: 100.0%;">WINTERBURN INDUSTRIAL AREA WEST 136</div>`)[0];
+                popup_c17e5cb53c8c4691b415e9c24012c909.setContent(html_e4d51c044fbf48b1b433b4e50f88f456);
+            
+
+            circle_1221fc3190b9405ea63d7c8ce81eb076.bindPopup(popup_c17e5cb53c8c4691b415e9c24012c909)
+            ;
+
+            
+        
+    
+
+            var circle_628520ab100d4b8cb3ceee0245f609a9 = L.circle(
+                [53.59757869, -113.6545389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 196.9,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2d039f61cc0949018e5d27b1ee3695cb);
+            
+    
+            var popup_c7358bbfe42b45859f8cb905a5c9e032 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bc0a31fca1064083bdb38a73ba0b9b00 = $(`<div id="html_bc0a31fca1064083bdb38a73ba0b9b00" style="width: 100.0%; height: 100.0%;">STARLING 179</div>`)[0];
+                popup_c7358bbfe42b45859f8cb905a5c9e032.setContent(html_bc0a31fca1064083bdb38a73ba0b9b00);
+            
+
+            circle_628520ab100d4b8cb3ceee0245f609a9.bindPopup(popup_c7358bbfe42b45859f8cb905a5c9e032)
+            ;
+
+            
+        
+    
+
+            var circle_4b623a70330f421bbf5aec8c7ba04c0e = L.circle(
+                [53.47784688, -113.3551182],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 339.90000000000003,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2d039f61cc0949018e5d27b1ee3695cb);
+            
+    
+            var popup_544ba9c6243a48b184682b07a26fdd09 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c7924b2735a04b71b9150ca1ca811af0 = $(`<div id="html_c7924b2735a04b71b9150ca1ca811af0" style="width: 100.0%; height: 100.0%;">MAPLE 309</div>`)[0];
+                popup_544ba9c6243a48b184682b07a26fdd09.setContent(html_c7924b2735a04b71b9150ca1ca811af0);
+            
+
+            circle_4b623a70330f421bbf5aec8c7ba04c0e.bindPopup(popup_544ba9c6243a48b184682b07a26fdd09)
+            ;
+
+            
+        
+    
+
+            var circle_ac25c377747643f6ae942728e258018b = L.circle(
+                [53.41761616, -113.4601568],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1131.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2d039f61cc0949018e5d27b1ee3695cb);
+            
+    
+            var popup_a3eacbc0071c449db9aa008a123a23dc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_acaaf7f5c007474fb460093218b5b67e = $(`<div id="html_acaaf7f5c007474fb460093218b5b67e" style="width: 100.0%; height: 100.0%;">SUMMERSIDE 11314</div>`)[0];
+                popup_a3eacbc0071c449db9aa008a123a23dc.setContent(html_acaaf7f5c007474fb460093218b5b67e);
+            
+
+            circle_ac25c377747643f6ae942728e258018b.bindPopup(popup_a3eacbc0071c449db9aa008a123a23dc)
+            ;
+
+            
+        
+    
+
+            var circle_d585fd31cdaa4b12a29ace02a2124bf2 = L.circle(
+                [53.5194394, -113.514911],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 994.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2d039f61cc0949018e5d27b1ee3695cb);
+            
+    
+            var popup_132ec759220042dc982b3d16638aad1f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_045f67ac23844381bc70b992423e888a = $(`<div id="html_045f67ac23844381bc70b992423e888a" style="width: 100.0%; height: 100.0%;">GARNEAU 9942</div>`)[0];
+                popup_132ec759220042dc982b3d16638aad1f.setContent(html_045f67ac23844381bc70b992423e888a);
+            
+
+            circle_d585fd31cdaa4b12a29ace02a2124bf2.bindPopup(popup_132ec759220042dc982b3d16638aad1f)
+            ;
+
+            
+        
+    
+
+            var circle_7a1fd935bf9a47f582d03f251792efe7 = L.circle(
+                [53.55333581, -113.5201277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 722.5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2d039f61cc0949018e5d27b1ee3695cb);
+            
+    
+            var popup_6d08bd6a5f6b4bc89453ca376985c5cc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b3490352d1c4442888508658df124d20 = $(`<div id="html_b3490352d1c4442888508658df124d20" style="width: 100.0%; height: 100.0%;">QUEEN MARY PARK 7225</div>`)[0];
+                popup_6d08bd6a5f6b4bc89453ca376985c5cc.setContent(html_b3490352d1c4442888508658df124d20);
+            
+
+            circle_7a1fd935bf9a47f582d03f251792efe7.bindPopup(popup_6d08bd6a5f6b4bc89453ca376985c5cc)
+            ;
+
+            
+        
+    
+
+            var circle_3fe93b02503f4020a4cb1293c36e8aaa = L.circle(
+                [53.54903594, -113.478967],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 691.3000000000001,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2d039f61cc0949018e5d27b1ee3695cb);
+            
+    
+            var popup_34be33681b444ce8b56eee8d7438ba80 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_09280dc7b8c741a6a41168550c948b14 = $(`<div id="html_09280dc7b8c741a6a41168550c948b14" style="width: 100.0%; height: 100.0%;">BOYLE STREET 6913</div>`)[0];
+                popup_34be33681b444ce8b56eee8d7438ba80.setContent(html_09280dc7b8c741a6a41168550c948b14);
+            
+
+            circle_3fe93b02503f4020a4cb1293c36e8aaa.bindPopup(popup_34be33681b444ce8b56eee8d7438ba80)
+            ;
+
+            
+        
+    
+
+            var circle_c8bd8478870e411ebe6d31ea1b93d900 = L.circle(
+                [53.61063495, -113.5501312],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 643.9000000000001,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_2d039f61cc0949018e5d27b1ee3695cb);
+            
+    
+            var popup_edff509dad5e418a94df99c344561c34 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e0bbd1b810354d6c811d80bea9cd555b = $(`<div id="html_e0bbd1b810354d6c811d80bea9cd555b" style="width: 100.0%; height: 100.0%;">CUMBERLAND 6439</div>`)[0];
+                popup_edff509dad5e418a94df99c344561c34.setContent(html_e0bbd1b810354d6c811d80bea9cd555b);
+            
+
+            circle_c8bd8478870e411ebe6d31ea1b93d900.bindPopup(popup_edff509dad5e418a94df99c344561c34)
+            ;
+
+            
+        
+</script>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edmonton Public Crime Database</title>
+	<link rel="stylesheet" type="text/css" href="/static/style.css"/>
+
+</head>
+<body>
+	<div class="back">
+		<div class="appear fade-in" >
+			<div class="header1">
+					Edmonton
+					Public
+					Crime
+					Database
+			</div>
+
+			<div class="option">
+				<br>
+				<br>
+				<br>
+				<p><a href="{{ url_for('query1') }}">1. Generate monthly bar plot of crimes</a></p>
+
+				<br>
+				<p><a href="{{ url_for('query2')}}">2. Most/Least Populous Neighbourhoods</a></p>
+
+				<br/>
+
+				<p><a href="{{ url_for('query3') }}">3. Crime Count in neighbourhoods</a></p>
+
+				<br>
+
+				<p><a href="{{ url_for('query4') }}">4. Highest Crime/Population ratio</a></p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
